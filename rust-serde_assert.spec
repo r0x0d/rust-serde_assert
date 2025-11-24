@@ -12,6 +12,8 @@ Summary:        Testing library for serde Serialize and Deserialize implementati
 License:        MIT OR Apache-2.0
 URL:            https://crates.io/crates/serde_assert
 Source:         %{crates_source}
+# Manually created patch for downstream crate metadata changes
+Patch:          serde_assert-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
