@@ -11,6 +11,8 @@ srpm_build_deps:
   - git
   - make
 
+update_release: false
+
 actions:
   # The last step here is required by Packit to return the archive name
   # https://packit.dev/docs/configuration/actions#create-archive
